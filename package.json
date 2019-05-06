@@ -3,7 +3,7 @@
 	"description": "Format style on save using stylelint --fix",
 	"version": "0.0.1",
 	"publisher": "pqml",
-	"repository": "",
+	"repository": "https://github.com/pqml/vscode-stylelint-format",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
@@ -14,20 +14,6 @@
 		"onLanguage:scss"
 	  ],
 	"main": "./extension.js",
-	"contributes": {
-		"languages": [
-			{
-				"id": "scss",
-				"aliases": [
-					"Sass",
-					"Scss"
-				],
-				"extensions": [
-					"scss"
-				]
-			}
-		]
-	},
 	"scripts": {
 		"postinstall": "node ./node_modules/vscode/bin/install"
 	},
