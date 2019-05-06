@@ -1,0 +1,38 @@
+{
+	"name": "vscode-stylelint-format",
+	"description": "Format style on save using stylelint --fix",
+	"version": "0.0.1",
+	"publisher": "pqml",
+	"repository": "",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"activationEvents": [
+		"onLanguage:css",
+		"onLanguage:postcss",
+		"onLanguage:less",
+		"onLanguage:scss"
+	  ],
+	"main": "./extension.js",
+	"contributes": {
+		"languages": [
+			{
+				"id": "scss",
+				"aliases": [
+					"Sass",
+					"Scss"
+				],
+				"extensions": [
+					"scss"
+				]
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.33"
+	},
+	"dependencies": {}
+}
