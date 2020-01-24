@@ -1,9 +1,7 @@
-# vscode-stylelint-format
+# DEPRECATED
 
-- Format style on save using stylelint --fix
-- **:warning: Work in progress**
-	- Only working with `.stylelintrc` for now
-	- No options available
+### vscode-stylelint-format is __deprecated__.
 
+### Please use [vscode-stylelint](https://github.com/stylelint/vscode-stylelint)
 
 

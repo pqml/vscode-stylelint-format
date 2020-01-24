@@ -1,18 +1,12 @@
 {
 	"name": "vscode-stylelint-format",
-	"description": "Format style on save using stylelint --fix",
-	"version": "0.0.1",
+	"description": "DEPRECATED. Please use stylelint.vscode-stylelint",
+	"version": "0.0.2",
 	"publisher": "pqml",
 	"repository": "https://github.com/pqml/vscode-stylelint-format",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
-	"activationEvents": [
-		"onLanguage:css",
-		"onLanguage:postcss",
-		"onLanguage:less",
-		"onLanguage:scss"
-	  ],
 	"main": "./extension.js",
 	"scripts": {
 		"postinstall": "node ./node_modules/vscode/bin/install"
